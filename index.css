@@ -1,0 +1,46 @@
+.logo{
+    width: 15%;
+    margin-right: -100%;
+    padding: 0%;
+    
+}
+
+.contenedor{
+    width: 600px;
+    height: 1200px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: auto;
+    margin-top: 110px;
+    
+}
+
+*{
+    font-family: ProximaNova, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Arial, Segoe UI Emoji, Segoe UI Symbol, Apple Color Emoji, Twemoji Mozilla, Noto Color Emoji, EmojiOne Color, Android Emoji;
+}
+
+
+.h1{
+    padding-left: -30%;
+    margin: 80px;
+    margin-top: -53px;
+    color: #d4004f;
+    height: 45px;
+    width: 220px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.emoji{
+    margin: 10px;
+    height: 30px;
+    right: 20px;
+    margin-top: -40px;
+    padding: 0%;
+    width: 60px;
+    margin-left: auto;
+    position: relative;
+    
+    
+
+}
