@@ -1,37 +1,40 @@
-.logo{
+.logo {
     width: 15%;
     margin-right: -100%;
     padding: 0%;
-    
+    margin-top: 15px;
 }
 
-.contenedor{
-    width: 600px;
-    height: 1200px;
-    background-color: antiquewhite;
+.contenedor {
+    width: 500px;
+    height: 810px;
+    background-color: black;
     display: flex;
     margin: auto;
-    margin-top: 110px;
-    
+    margin-top: 20px;
+    border-radius: 40px;
+
 }
 
-*{
-    font-family: ProximaNova, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Arial, Segoe UI Emoji, Segoe UI Symbol, Apple Color Emoji, Twemoji Mozilla, Noto Color Emoji, EmojiOne Color, Android Emoji;
+* {
+    font-family: ProximaNova, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Arial,
+        Segoe UI Emoji, Segoe UI Symbol, Apple Color Emoji, Twemoji Mozilla, Noto Color Emoji, EmojiOne Color, Android Emoji;
+    margin: 0px;
 }
 
 
-.h1{
+.h1 {
     padding-left: -30%;
     margin: 80px;
-    margin-top: -53px;
+    margin-top: -55px;
     color: #d4004f;
     height: 45px;
     width: 220px;
     position: absolute;
-    margin-left: 5%;
+    margin-left: 4%;
 }
 
-.emoji{
+.emoji {
     margin: 10px;
     height: 30px;
     right: 20px;
@@ -40,6 +43,145 @@
     width: 60px;
     margin-left: auto;
     position: relative;
+
+}
+
+.emoji img {
+    color: red;
+}
+
+.parrafo {
+    display: flex;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.mario{
+    width: 500px;
+    position: absolute;
+    bottom: 160px;
+    left: 710px;
+    padding-bottom: 200px;
+    top: 110px;
+    border-radius: 20px;
+    height:555px;
+    display: block;
     
+}
+
+.activo{
+    position: absolute;
+    background-color: #2df187;
+    left: 718px;
+    bottom: 295px;
+    border-radius: 20px;
+    height:22px;
+    width: 55px;
+    text-align: center;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.name{
+    position: absolute;
+    left: 718px;
+    bottom: 256px;
+    color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.veri{
+    width:1%;
+    position: absolute;
+    bottom: 256px;
+    left: 884px;  
+}
+
+.boton1{
+    position: absolute;
+    top: 120px;
+    left: 718px;
+    width: 75px;
+}
+
+.boton2{
+    position: absolute;
+    left: 798px;
+    width: 75px;
+    top: 120px;   
+}
+
+.boton3{
+    position: absolute;
+    top: 120px;
+    left: 878px;
+    width: 75px;
+}
+
+.boton4{
+    position: absolute;
+    top: 120px;
+    left: 958px;
+    width: 75px;
+}
+
+.boton5{
+    position: absolute;
+    top: 120px;
+    left: 1038px;
+    width: 75px;
+}
+
+.boton6{
+    position: absolute;
+    top: 120px;
+    left: 1118px;
+    width: 75px;
+}
+ 
+.flecha{
+    position: absolute;
+    height: 30px;
+    bottom: 251px;
+    right: 716px;
+    cursor: pointer;
+}
+
+.ubi{
+    position: absolute;
+    height: 30px;
+    left: 708px;
+    bottom: 211px;
+}
+
+.detras{
+    position: absolute;
+    font-size: medium;
+    bottom: 211px;
+    left: 738px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botones button{
+   border-radius: 50%;
+   height: 35px;
+   width: 35px;
+   border: none;
+   border: none;
+   cursor: pointer;
+}
+
+.botones{
+    display: absolute;
+    background-color: blue;
+    float: left;
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    margin-top: 700px;
+    justify-content: space-around;
 
 }
